@@ -1,3 +1,10 @@
+const fs=require('fs');
+fs.readFile('./loc.json','utf8',(err,data)=>{
+    if (err) {
+        console.error("error reading json",err);
+        return;
+    }
+})
 const { spawn } = require("child_process");
 
 const py = spawn("python3", ["./accu.py", "https://www.accuweather.com/en/ir/tabriz/207308/current-weather/207308", "https://www.accuweather.com/en/ir/tabriz/207308/air-quality-index/207308"]);
