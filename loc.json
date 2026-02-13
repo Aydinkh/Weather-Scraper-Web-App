@@ -1,3 +1,6 @@
 {
 	"tabriz":{
-		"overall":
+		"overall":"https://www.accuweather.com/en/ir/tabriz/207308/current-weather/207308"
+		, "AQI":"https://www.accuweather.com/en/ir/tabriz/207308/air-quality-index/207308"
+	}
+}
