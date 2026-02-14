@@ -1,6 +1,10 @@
 {
-	"tabriz":{
-		"overall":"https://www.accuweather.com/en/ir/tabriz/207308/current-weather/207308"
-		, "AQI":"https://www.accuweather.com/en/ir/tabriz/207308/air-quality-index/207308"
-	}
+  "tabriz": {
+    "overall": "https://www.accuweather.com/en/ir/tabriz/207308/current-weather/207308",
+    "AQI": "https://www.accuweather.com/en/ir/tabriz/207308/air-quality-index/207308"
+  },
+  "London": {
+    "overall_weather": "url1",
+    "aqi": "url2"
+  }
 }
