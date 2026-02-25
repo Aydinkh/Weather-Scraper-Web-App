@@ -1,0 +1,23 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "- An admin page for passing urls that are going to be scraped - Users can see the available locations and get their info from the WebApp - The python app scrapes some specific data and stores the data in our database - The JS app retrieves the data (weather info) stored in our database",
+  "homepage": "https://github.com/Aydinkh/Weather-Scraper-Web-App#readme",
+  "bugs": {
+    "url": "https://github.com/Aydinkh/Weather-Scraper-Web-App/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aydinkh/Weather-Scraper-Web-App.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "childp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prisma": "^7.4.1"
+  }
+}
